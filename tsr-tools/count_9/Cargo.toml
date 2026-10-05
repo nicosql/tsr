@@ -1,0 +1,17 @@
+[package]
+name = "count_9"
+version = "0.1.0"
+edition = "2024"
+authors = ["John Arundel <john@bitfieldconsulting.com>"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+anyhow = "1.0.89"
+clap = { version = "4.5.17", features = ["derive"] }
+
+[dev-dependencies]
+assert_cmd = "2.0.16"
+predicates = "3.1.2"
+
+[lints]
+workspace = true

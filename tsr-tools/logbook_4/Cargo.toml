@@ -1,0 +1,21 @@
+[package]
+name = "logbook_4"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = """
+Record observations in a logbook file, or list previous observations.
+"""
+keywords = ["cli", "utility", "text"]
+categories = ["command-line-utilities"]
+repository = "https://github.com/bitfield/tsr-tools"
+authors = ["Russ Tation <russ@example.com>"]
+
+[dependencies]
+anyhow = "1.0.89"
+
+[dev-dependencies]
+tempfile = "3.13.0"
+
+[lints]
+workspace = true
